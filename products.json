@@ -1,0 +1,31 @@
+{
+  "call": {
+    "product_name1": {
+      "tradable": "true",
+      "name": "main_window",
+      "image_name": "sun",
+      "image": {
+        "link": "https://img.freepik.com/premium-photo/sun-with-sun-sky_421632-12290.jpg",
+        "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAAAAAAD/2wBDAA..."
+      }
+    },
+    "product_name2": {
+      "tradable": "false",
+      "name": "another_window",
+      "image_name": "sun",
+      "image": {
+        "link": "https://img.freepik.com/free-photo/fresh-yellow-daisy-single-flower-close-up-beauty-generated-by-ai_188544-15543.jpg",
+        "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAAAAAAD/2wBDAA..."
+      }
+    },
+    "product_name3": {
+      "tradable": "true",
+      "name": "main_window",
+      "image_name": "moon",
+      "image": {
+        "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Moon_farside_LRO_color_mosaic.png/300px-Moon_farside_LRO_color_mosaic.png",
+        "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAAAAAAD/2wBDAA..."
+      }
+    }
+  }
+}
