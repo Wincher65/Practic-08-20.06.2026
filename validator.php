@@ -83,14 +83,14 @@ return $errors;
 }
 $result = validateUserData($data) ;
 
-if (empty($result))
-{
+if (empty($result)) {
+
   $response["status"] = True;
   $response["message"] = "Регистрация прошла успешно!";
   echo json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);  //для того, чтобы ответ функции был таким, каким был в задании
 }
-elseif (!empty($result))
-{
+elseif (!empty($result)) {
+    
   $response["status"] = False;
   $response["message"] = $result;
   echo json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
