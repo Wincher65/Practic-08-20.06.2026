@@ -15,6 +15,8 @@ $errors=[];
 
 if (empty($data['email'])) {
     $errors[] = "Email обязателен для заполнения";
+} elseif (strpos($data['email'], '@') === false) {
+    $errors['email'] = 'Email должен содержать символ "@"';
 } elseif (!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
     $errors[] = "Неверный формат email";
 }  elseif (strlen($data['email']) < 5) {
